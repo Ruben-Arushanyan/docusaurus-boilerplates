@@ -1,7 +1,7 @@
 
 const siteMetadata = {
-    title: 'My Site',
-    url: 'https://your-docusaurus-test-site.com',
+    title: 'Redux Cool',
+    url: 'https://redux-cool.js.org',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
 }

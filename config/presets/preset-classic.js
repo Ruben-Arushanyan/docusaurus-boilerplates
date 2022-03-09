@@ -5,18 +5,12 @@ const customCssPath = path.resolve(__dirname, '../../src/css/custom.css')
 
 
 const preset_classic = [
-    'classic',
+    '@docusaurus/preset-classic',
     {
       docs: {
         sidebarPath,
-        // Please change this to your repo.
-        editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-      },
-      blog: {
-        showReadingTime: true,
-        // Please change this to your repo.
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/Redux-Cool/redux-cool/edit/master/website/',
       },
       theme: {
         customCss: customCssPath,

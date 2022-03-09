@@ -13,13 +13,11 @@ const presets = require('./config/presets')
 // theme
 const theme = require('./config/theme')
 
-const config = {
-   ...siteMetadata,
+module.exports = {
+  ...siteMetadata,
   ...deployment,
 
   themeConfig: theme,
   plugins,
   presets,
 };
-
-module.exports = config;

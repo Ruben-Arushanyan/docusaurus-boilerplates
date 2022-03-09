@@ -1,9 +1,9 @@
 
 const navbar = {
-    title: 'My Site',
+    title: 'Redux Cool',
     logo: {
-      alt: 'My Site Logo',
-      src: 'img/logo.svg',
+      alt: 'Redux Cool Logo',
+      src: 'img/logo.png',
     },
     items: [
       {
