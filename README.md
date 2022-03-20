@@ -1,3 +1,5 @@
+> Go To [Setup Instructions](/SETUP_INSTRUCTIONS.md)
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
