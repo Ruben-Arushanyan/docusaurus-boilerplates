@@ -1,6 +1,7 @@
 {
-  "name": "website",
-  "version": "0.0.0",
+  "name": "my-site",
+  "version": "0.0.1",
+  "_boilerplateVersion": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
