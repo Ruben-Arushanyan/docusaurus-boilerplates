@@ -57,3 +57,17 @@ change **static/img/favicon.ico**.
 
 `docusaurus.config.js`
 
+---
+
+## Step 6
+Change **organizationName**.
+
+`docusaurus.config.js`
+
+```js
+const config = {
+    ...
+    organizationName: 'Ruben-Arushanyan'
+    ...
+}
+```
