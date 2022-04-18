@@ -76,16 +76,27 @@ const config = {
 ```
 
 ## Step 8
-Change **docs.editUrl**.
+Change **presets.docs.editUrl**.
 
 `docusaurus.config.js`
 
 ```js
-const config = {
-    presets: {
-        docs: {
-            editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/'
-        }
+{
+    docs: {
+        editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/'
+    }
+}
+```
+
+## Step 9
+Change **presets.blog.editUrl**.
+
+`docusaurus.config.js`
+
+```js
+{
+    blog: {
+        editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/'
     }
 }
 ```
