@@ -14,9 +14,7 @@ Change **title**.
 
 ```js
 const config = {
-    ...
     title: 'Lox Lava'
-    ...
 }
 ```
 
@@ -29,9 +27,7 @@ Change **tagline**.
 
 ```js
 const config = {
-    ...
     tagline: 'Psakecin Maroin Tvin Choban Karoin'
-    ...
 }
 ```
 
@@ -44,9 +40,7 @@ Change **url**.
 
 ```js
 const config = {
-    ...
     url: 'https://lox-lava.com'
-    ...
 }
 ```
 
@@ -66,9 +60,7 @@ Change **organizationName**.
 
 ```js
 const config = {
-    ...
     organizationName: 'Ruben-Arushanyan'
-    ...
 }
 ```
 
@@ -79,8 +71,21 @@ Change **projectName**.
 
 ```js
 const config = {
-    ...
     projectName: 'lox-lava'
-    ...
+}
+```
+
+## Step 8
+Change **docs.editUrl**.
+
+`docusaurus.config.js`
+
+```js
+const config = {
+    presets: {
+        docs: {
+            editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/'
+        }
+    }
 }
 ```
