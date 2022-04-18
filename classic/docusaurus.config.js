@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Lox Lava',
   tagline: 'Psakecin Maroin Tvin Choban Karoin',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://lox-lava.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
