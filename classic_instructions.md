@@ -71,3 +71,16 @@ const config = {
     ...
 }
 ```
+
+## Step 7
+Change **projectName**.
+
+`docusaurus.config.js`
+
+```js
+const config = {
+    ...
+    projectName: 'lox-lava'
+    ...
+}
+```
