@@ -47,9 +47,7 @@ const config = {
 ---
 
 ## Step 5
-change **static/img/favicon.ico**.
-
-`docusaurus.config.js`
+Change **static/img/favicon.ico**.
 
 ---
 
@@ -110,6 +108,29 @@ Change **themeConfig.navbar.title**.
 {
     navbar: {
         title: 'Lox Lava'
+    }
+}
+```
+
+---
+
+## Step 11
+Change **static/img/logo.svg**.
+
+---
+
+## Step 12
+Change **themeConfig.navbar.logo**.
+
+`docusaurus.config.js`
+
+```js
+{
+    navbar: {
+        logo: {
+            alt: 'Lox Lava Logo',
+            src: 'img/logo.svg',
+        }
     }
 }
 ```
