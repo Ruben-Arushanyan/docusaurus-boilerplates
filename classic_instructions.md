@@ -100,3 +100,16 @@ Change **presets.blog.editUrl**.
     }
 }
 ```
+
+## Step 10
+Change **themeConfig.navbar.title**.
+
+`docusaurus.config.js`
+
+```js
+{
+    navbar: {
+        title: 'Lox Lava'
+    }
+}
+```

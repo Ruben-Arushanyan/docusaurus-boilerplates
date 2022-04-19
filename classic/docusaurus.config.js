@@ -42,9 +42,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Lox Lava',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Lox Lava Logo',
           src: 'img/logo.svg',
         },
         items: [
