@@ -213,3 +213,15 @@ Set **themeConfig.footer.links**.
 }
 ```
 
+## Step 15
+Set **themeConfig.footer.copyright**.
+
+`docusaurus.config.js`
+
+```js
+{
+    footer: {
+        copyright: `Copyright © ${new Date().getFullYear()} Ruben Arushanyan`,
+    }
+}
+```
