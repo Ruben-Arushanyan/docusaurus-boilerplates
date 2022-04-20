@@ -240,3 +240,23 @@ Revise: `package.json`
   "name": "lox-lava-website",
 }
 ```
+
+## Step 17
+
+Revise: `package.json`
+
+```json
+{
+    "version": "0.0.1",
+}
+```
+
+## Step 18
+
+Revise: `package.json`
+
+```json
+{
+    "_boilerplateVersion": "0.0.1",
+}
+```
