@@ -168,3 +168,48 @@ Set **themeConfig.navbar.items**.
 }
 ```
 
+## Step 14
+Set **themeConfig.footer.links**.
+
+`docusaurus.config.js`
+
+```js
+{
+    footer: {
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Get Started',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/RubenArushanyan',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Ruben-Arushanyan/lox-lava',
+              },
+            ],
+          },
+        ],
+    }
+}
+```
+
