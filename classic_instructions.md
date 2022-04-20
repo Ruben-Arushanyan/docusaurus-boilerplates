@@ -8,7 +8,7 @@ Copy the `classic` folder from the root repository.
 
 ## Step 2
 
-Change **title**.
+Set **title**.
 
 `docusaurus.config.js`
 
@@ -21,7 +21,7 @@ const config = {
 ---
 
 ## Step 3
-Change **tagline**.
+Set **tagline**.
 
 `docusaurus.config.js`
 
@@ -34,7 +34,7 @@ const config = {
 ---
 
 ## Step 4
-Change **url**.
+Set **url**.
 
 `docusaurus.config.js`
 
@@ -47,12 +47,12 @@ const config = {
 ---
 
 ## Step 5
-Change **static/img/favicon.ico**.
+Set **static/img/favicon.ico**.
 
 ---
 
 ## Step 6
-Change **organizationName**.
+Set **organizationName**.
 
 `docusaurus.config.js`
 
@@ -63,7 +63,7 @@ const config = {
 ```
 
 ## Step 7
-Change **projectName**.
+Set **projectName**.
 
 `docusaurus.config.js`
 
@@ -74,7 +74,7 @@ const config = {
 ```
 
 ## Step 8
-Change **presets.docs.editUrl**.
+Set **presets.docs.editUrl**.
 
 `docusaurus.config.js`
 
@@ -87,7 +87,7 @@ Change **presets.docs.editUrl**.
 ```
 
 ## Step 9
-Change **presets.blog.editUrl**.
+Set **presets.blog.editUrl**.
 
 `docusaurus.config.js`
 
@@ -100,7 +100,7 @@ Change **presets.blog.editUrl**.
 ```
 
 ## Step 10
-Change **themeConfig.navbar.title**.
+Set **themeConfig.navbar.title**.
 
 `docusaurus.config.js`
 
@@ -115,12 +115,12 @@ Change **themeConfig.navbar.title**.
 ---
 
 ## Step 11
-Change **static/img/logo.svg**.
+Set **static/img/logo.svg**.
 
 ---
 
 ## Step 12
-Change **themeConfig.navbar.logo**.
+Set **themeConfig.navbar.logo**.
 
 `docusaurus.config.js`
 
@@ -134,3 +134,37 @@ Change **themeConfig.navbar.logo**.
     }
 }
 ```
+
+## Step 13
+Set **themeConfig.navbar.items**.
+
+`docusaurus.config.js`
+
+```js
+{
+    navbar: {
+        items: [
+            // left
+            {
+                type: 'doc',
+                docId: 'intro',
+                position: 'left',
+                label: 'Tutorial',
+            },
+            {
+                to: '/blog',
+                label: 'Blog',
+                position: 'left',
+            },
+
+            // right
+            {
+                href: 'https://github.com/Ruben-Arushanyan/lox-lava',
+                label: 'GitHub',
+                position: 'right',
+            },
+        ]
+    }
+}
+```
+

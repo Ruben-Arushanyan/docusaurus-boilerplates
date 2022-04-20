@@ -48,15 +48,22 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // left
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+
+          // right
+          {
+            href: 'https://github.com/Ruben-Arushanyan/lox-lava',
             label: 'GitHub',
             position: 'right',
           },
