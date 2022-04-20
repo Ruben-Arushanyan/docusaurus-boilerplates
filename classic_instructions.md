@@ -4,13 +4,11 @@
 
 Copy the `classic` folder from the root repository.
 
----
+----------------------------------------------------------------
 
 ## Step 2
 
-Set **title**.
-
-`docusaurus.config.js`
+Revise: `docusaurus.config.js`
 
 ```js
 const config = {
@@ -18,12 +16,11 @@ const config = {
 }
 ```
 
----
+----------------------------------------------------------------
 
 ## Step 3
-Set **tagline**.
 
-`docusaurus.config.js`
+Revise: `docusaurus.config.js`
 
 ```js
 const config = {
@@ -31,12 +28,11 @@ const config = {
 }
 ```
 
----
+-----------------------------------------------------------------
 
 ## Step 4
-Set **url**.
 
-`docusaurus.config.js`
+Revise: `docusaurus.config.js`
 
 ```js
 const config = {
@@ -44,17 +40,17 @@ const config = {
 }
 ```
 
----
+-----------------------------------------------------------------
 
 ## Step 5
-Set **static/img/favicon.ico**.
 
----
+Revise: `static/img/favicon.ico`.
+
+-----------------------------------------------------------------
 
 ## Step 6
-Set **organizationName**.
 
-`docusaurus.config.js`
+Revise: `docusaurus.config.js`
 
 ```js
 const config = {
@@ -62,10 +58,11 @@ const config = {
 }
 ```
 
-## Step 7
-Set **projectName**.
+-----------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 7
+
+Revise: `docusaurus.config.js`
 
 ```js
 const config = {
@@ -73,10 +70,11 @@ const config = {
 }
 ```
 
-## Step 8
-Set **presets.docs.editUrl**.
+-----------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 8
+
+Revise: `docusaurus.config.js`
 
 ```js
 {
@@ -86,10 +84,11 @@ Set **presets.docs.editUrl**.
 }
 ```
 
-## Step 9
-Set **presets.blog.editUrl**.
+-----------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 9
+
+Revise: `docusaurus.config.js`
 
 ```js
 {
@@ -99,10 +98,11 @@ Set **presets.blog.editUrl**.
 }
 ```
 
-## Step 10
-Set **themeConfig.navbar.title**.
+------------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 10
+
+Revise: `docusaurus.config.js`
 
 ```js
 {
@@ -112,17 +112,17 @@ Set **themeConfig.navbar.title**.
 }
 ```
 
----
+------------------------------------------------------------------
 
 ## Step 11
-Set **static/img/logo.svg**.
 
----
+Revise: `static/img/logo.svg`
+
+------------------------------------------------------------------
 
 ## Step 12
-Set **themeConfig.navbar.logo**.
 
-`docusaurus.config.js`
+Revise: `docusaurus.config.js`
 
 ```js
 {
@@ -135,10 +135,11 @@ Set **themeConfig.navbar.logo**.
 }
 ```
 
-## Step 13
-Set **themeConfig.navbar.items**.
+-----------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 13
+
+Revise: `docusaurus.config.js`
 
 ```js
 {
@@ -168,10 +169,11 @@ Set **themeConfig.navbar.items**.
 }
 ```
 
-## Step 14
-Set **themeConfig.footer.links**.
+--------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 14
+
+Revise: `docusaurus.config.js`
 
 ```js
 {
@@ -213,15 +215,28 @@ Set **themeConfig.footer.links**.
 }
 ```
 
-## Step 15
-Set **themeConfig.footer.copyright**.
+--------------------------------------------------------------
 
-`docusaurus.config.js`
+## Step 15
+
+Revise: `docusaurus.config.js`
 
 ```js
 {
     footer: {
         copyright: `Copyright © ${new Date().getFullYear()} Ruben Arushanyan`,
     }
+}
+```
+
+---------------------------------------------------------------
+
+## Step 16
+
+Revise: `package.json`
+
+```json
+{
+  "name": "lox-lava-website",
 }
 ```
