@@ -26,6 +26,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/',
         },
+        // blog: false,
         blog: {
           showReadingTime: true,
           // Please change this to your repo.

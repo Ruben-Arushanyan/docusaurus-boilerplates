@@ -152,6 +152,7 @@ Revise: `docusaurus.config.js`
                 position: 'left',
                 label: 'Tutorial',
             },
+            // blog: false,
             {
                 to: '/blog',
                 label: 'Blog',
