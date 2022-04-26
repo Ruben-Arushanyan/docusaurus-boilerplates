@@ -30,6 +30,8 @@ const config = {
         blog: {
           blogTitle: 'Blog',
           blogDescription: 'Lox Lava Blog',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/',
