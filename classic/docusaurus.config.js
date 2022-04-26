@@ -28,6 +28,8 @@ const config = {
         },
         // blog: false,
         blog: {
+          blogTitle: 'Blog',
+          blogDescription: 'Lox Lava Blog',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/',
