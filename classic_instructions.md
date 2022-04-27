@@ -1,12 +1,12 @@
 # Setup Instructions
 
-## Step 1
+## Step *
 
 Copy the `classic` folder from the root repository.
 
 ----------------------------------------------------------------
 
-## Step 2
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -18,7 +18,7 @@ const config = {
 
 ----------------------------------------------------------------
 
-## Step 3
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -30,7 +30,7 @@ const config = {
 
 -----------------------------------------------------------------
 
-## Step 4
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -42,13 +42,13 @@ const config = {
 
 -----------------------------------------------------------------
 
-## Step 5
+## Step *
 
 Revise: `static/img/favicon.ico`.
 
 -----------------------------------------------------------------
 
-## Step 6
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -60,7 +60,7 @@ const config = {
 
 -----------------------------------------------------------------
 
-## Step 7
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -72,7 +72,7 @@ const config = {
 
 -----------------------------------------------------------------
 
-## Step 8
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -86,21 +86,21 @@ Revise: `docusaurus.config.js`
 
 -----------------------------------------------------------------
 
-## Step 9
+## Step *
 
 Revise: `docusaurus.config.js`
 
+Open this field if you want to disable the blog feature.
+
 ```js
 {
-    blog: {
-        editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/'
-    }
+    // blog: false,
 }
 ```
 
 ------------------------------------------------------------------
 
-## Step 10
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -114,13 +114,13 @@ Revise: `docusaurus.config.js`
 
 ------------------------------------------------------------------
 
-## Step 11
+## Step
 
 Revise: `static/img/logo.svg`
 
 ------------------------------------------------------------------
 
-## Step 12
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -137,7 +137,7 @@ Revise: `docusaurus.config.js`
 
 -----------------------------------------------------------------
 
-## Step 13
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -172,7 +172,7 @@ Revise: `docusaurus.config.js`
 
 --------------------------------------------------------------
 
-## Step 14
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -218,7 +218,7 @@ Revise: `docusaurus.config.js`
 
 --------------------------------------------------------------
 
-## Step 15
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -232,7 +232,7 @@ Revise: `docusaurus.config.js`
 
 ---------------------------------------------------------------
 
-## Step 16
+## Step
 
 Revise: `package.json`
 
@@ -242,7 +242,7 @@ Revise: `package.json`
 }
 ```
 
-## Step 17
+## Step
 
 Revise: `package.json`
 
@@ -252,7 +252,7 @@ Revise: `package.json`
 }
 ```
 
-## Step 18
+## Step
 
 Revise: `package.json`
 
