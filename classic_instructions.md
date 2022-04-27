@@ -167,7 +167,7 @@ Revise: `docusaurus.config.js`
 
 -----------------------------------------------------------------
 
-## Step
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -175,26 +175,7 @@ Revise: `docusaurus.config.js`
 {
     navbar: {
         items: [
-            // left
-            {
-                type: 'doc',
-                docId: 'intro',
-                position: 'left',
-                label: 'Tutorial',
-            },
-            // blog: false,
-            {
-                to: '/blog',
-                label: 'Blog',
-                position: 'left',
-            },
-
-            // right
-            {
-                href: 'https://github.com/Ruben-Arushanyan/lox-lava',
-                label: 'GitHub',
-                position: 'right',
-            },
+            ...
         ]
     }
 }
@@ -202,7 +183,7 @@ Revise: `docusaurus.config.js`
 
 --------------------------------------------------------------
 
-## Step
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -210,38 +191,8 @@ Revise: `docusaurus.config.js`
 {
     footer: {
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Get Started',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/RubenArushanyan',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Ruben-Arushanyan/lox-lava',
-              },
-            ],
-          },
-        ],
+            ...
+        ]
     }
 }
 ```
@@ -262,7 +213,7 @@ Revise: `docusaurus.config.js`
 
 ---------------------------------------------------------------
 
-## Step
+## Step *
 
 Revise: `package.json`
 
@@ -288,6 +239,6 @@ Revise: `package.json`
 
 ```json
 {
-    "_boilerplateVersion": "0.0.1",
+    "_boilerplateVersion": "x.x.x",
 }
 ```
