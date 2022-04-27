@@ -16,6 +16,10 @@ const config = {
   organizationName: 'Ruben-Arushanyan', // Usually your GitHub org/user name.
   projectName: 'lox-lava', // Usually your repo name.
 
+  customFields: {
+    description: 'Descrtiption for meta tag',
+  },
+
   presets: [
     [
       'classic',

@@ -77,6 +77,20 @@ const config = {
 Revise: `docusaurus.config.js`
 
 ```js
+const config = {
+    customFields: {
+        description: 'Descrtiption for meta tag',
+    }
+}
+```
+
+-----------------------------------------------------------------
+
+## Step *
+
+Revise: `docusaurus.config.js`
+
+```js
 {
     docs: {
         editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/'
