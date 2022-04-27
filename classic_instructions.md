@@ -270,7 +270,7 @@ Revise: `src/components/HomepageHeader/index.js`
     </Link>
 ```
 
-## Step
+## Step *
 
 Revise: `src/components/HomepageFeatures/index.js`
 
@@ -287,3 +287,9 @@ const FeatureList = [
   },
 ];
 ```
+
+## Step *
+
+Revise: `static/img/easy_to_use.svg`
+
+Delete if not in use․
