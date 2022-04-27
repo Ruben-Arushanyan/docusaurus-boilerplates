@@ -256,3 +256,16 @@ Revise: `package.json`
     "_boilerplateVersion": "x.x.x",
 }
 ```
+
+## Step
+
+Revise: `src/components/HomepageHeader/index.js`
+
+```js
+    <Link
+        className="button button--secondary button--lg"
+        to="/docs/intro"
+    >
+        Get Started
+    </Link>
+```
