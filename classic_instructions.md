@@ -269,3 +269,21 @@ Revise: `src/components/HomepageHeader/index.js`
         Get Started
     </Link>
 ```
+
+## Step
+
+Revise: `src/components/HomepageFeatures/index.js`
+
+```js
+const FeatureList = [
+  {
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/easy_to_use.svg').default,
+    description: (
+      <>
+        Lox lava inelu...
+      </>
+    ),
+  },
+];
+```
