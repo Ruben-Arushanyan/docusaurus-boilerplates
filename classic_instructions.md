@@ -293,3 +293,24 @@ const FeatureList = [
 Revise: `static/img/easy_to_use.svg`
 
 Delete if not in use․
+
+## Step *
+
+Revise: `docs/`
+
+Remove examples and make real docs.
+
+## Step
+
+Revise: `blog/authors.yml`
+
+Skip if the blog feature is disabled.
+
+## Step
+
+Revise: `blog/`
+
+Remove examples and make real posts.
+
+
+
