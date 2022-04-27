@@ -98,9 +98,39 @@ Open this field if you want to disable the blog feature.
 }
 ```
 
+-----------------------------------------------------------------
+
+## Step *
+
+Revise: `docusaurus.config.js`
+
+Skip if the blog feature is disabled
+
+```js
+{
+    blog: {
+        blogDescription: 'Lox Lava Blog',
+    },
+}
+```
+
+## Step *
+
+Revise: `docusaurus.config.js`
+
+Skip if the blog feature is disabled
+
+```js
+{
+    blog: {
+        editUrl: 'https://github.com/Ruben-Arushanyan/lox-lava/edit/master/website/',
+    },
+}
+```
+
 ------------------------------------------------------------------
 
-## Step
+## Step *
 
 Revise: `docusaurus.config.js`
 
@@ -114,13 +144,13 @@ Revise: `docusaurus.config.js`
 
 ------------------------------------------------------------------
 
-## Step
+## Step *
 
 Revise: `static/img/logo.svg`
 
 ------------------------------------------------------------------
 
-## Step
+## Step *
 
 Revise: `docusaurus.config.js`
 
