@@ -306,7 +306,7 @@ Revise: `blog/authors.yml`
 
 Skip if the blog feature is disabled.
 
-## Step
+## Step *
 
 Revise: `blog/`
 
