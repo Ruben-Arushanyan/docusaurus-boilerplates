@@ -312,5 +312,14 @@ Revise: `blog/`
 
 Remove examples and make real posts.
 
+## Step
+
+Testing your build locally
+
+```bash
+npm run build
+npm run serve
+```
+
 
 
