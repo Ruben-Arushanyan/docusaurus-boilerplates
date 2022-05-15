@@ -1,8 +1,17 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const packageJson = require('./package.json');
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+const additonalInfo = {
+  generator: 'Docusaurus',
+  lastBuildTime: `${new Date().toLocaleString('ru-RU', {timeZone: 'Asia/Yerevan'})} (Asia/Yerevan)`,
+  websiteVersion: packageJson.version,
+  boilerplateVersion: packageJson._boilerplateVersion,
+}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -18,6 +27,7 @@ const config = {
 
   customFields: {
     description: 'Descrtiption for meta tag',
+    additonalInfo,
   },
 
   presets: [

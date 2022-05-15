@@ -1,20 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageHeader from '@site/src/components/HomepageHeader';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const {
+    siteConfig: {
+      customFields: {
+        description,
+        additonalInfo,
+      },
+    },
+  } = useDocusaurusContext()
+
+  useEffect(() => {
+    console.table(additonalInfo)
+  }, [])
+
   return (
     <Layout
       title=""
-      description={siteConfig.customFields.description}
+      description={description}
     >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
     </Layout>
-  );
+  )
 }

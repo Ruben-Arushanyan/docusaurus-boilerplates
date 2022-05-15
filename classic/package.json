@@ -1,7 +1,7 @@
 {
   "name": "lox-lava-website",
-  "version": "0.0.1",
-  "_boilerplateVersion": "0.0.1",
+  "version": "1.0.0",
+  "_boilerplateVersion": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
