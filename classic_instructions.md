@@ -155,6 +155,20 @@ Skip if the blog feature is disabled
 Revise: `docusaurus.config.js`
 
 ```js
+    metadata: [
+        {
+            name: 'keywords',
+            content: 'lox, lava, maro, karo',
+        },
+    ]
+```
+
+------------------------------------------------------------------
+## Step *
+
+Revise: `docusaurus.config.js`
+
+```js
 {
     navbar: {
         title: 'Lox Lava'

@@ -60,6 +60,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'keywords',
+          content: 'lox, lava, maro, karo',
+        },
+      ],
       navbar: {
         title: 'Lox Lava',
         logo: {
