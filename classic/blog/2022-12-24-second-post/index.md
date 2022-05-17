@@ -1,5 +1,6 @@
 ---
 title: Second Post
+description: This description will override the default
 authors: [ruben]
 tags: [tag1]
 ---
