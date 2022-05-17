@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HomepageHeader from '@site/src/components/HomepageHeader';
+import HeroBanner from '@site/src/components/HeroBanner';
 
 export default function Home() {
   const {
@@ -23,7 +23,7 @@ export default function Home() {
       title=""
       description={description}
     >
-      <HomepageHeader />
+      <HeroBanner />
       <main>
         <HomepageFeatures />
       </main>
