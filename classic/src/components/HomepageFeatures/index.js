@@ -12,6 +12,24 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/easy_to_use.svg').default,
+    description: (
+      <>
+        Lox lava inelu...
+      </>
+    ),
+  },
+  {
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/easy_to_use.svg').default,
+    description: (
+      <>
+        Lox lava inelu...
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
