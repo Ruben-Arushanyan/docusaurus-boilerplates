@@ -37,3 +37,11 @@
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.hero--primary {
+  --ifm-hero-background-color: #303846;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #303846;
+}
