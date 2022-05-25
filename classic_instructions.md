@@ -230,6 +230,18 @@ Revise: `docusaurus.config.js`
 }
 ```
 
+## Step __DRAFT
+
+Add PWA
+https://www.simicart.com/manifest-generator.html
+Revise: `docusaurus.config.js`
+
+```js
+{
+   
+}
+```
+
 
 ## Step *
 
