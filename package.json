@@ -1,0 +1,19 @@
+{
+  "name": "docusaurus-boilerplate",
+  "version": "3.0.0",
+  "description": "docusaurus boilerplates, and instructions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Examples-Of-Usage/docusaurus-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Examples-Of-Usage/docusaurus-boilerplate/issues"
+  },
+  "keywords": [
+      "docusaurus",
+      "boilerplate",
+      "docs"
+  ],
+  "author": "Ruben Arushanyan <ruben.arushanyan24@gmail.com> (https://www.linkedin.com/in/ruben-arushanyan-42bba9235/)"
+}
