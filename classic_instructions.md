@@ -230,17 +230,28 @@ Revise: `docusaurus.config.js`
 }
 ```
 
-## Step __DRAFT
+## Step
 
 Add PWA
-https://www.simicart.com/manifest-generator.html
-Revise: `docusaurus.config.js`
 
-```js
-{
-   
-}
-```
+- Revise: `docusaurus.config.js`
+
+    Open the comment for PWA
+    ```js
+    {
+    plugins: [
+        //    [
+        //        'pwa',
+        //        {
+        //            ...
+        //        }
+        //    ]
+    ]
+    }
+    ```
+- Rename `static/__manifest.json__` to `manifest.json`
+- Generate manifest json <https://www.simicart.com/manifest-generator.html>
+- Move generated icons to `static/img/icons`
 
 
 ## Step *
