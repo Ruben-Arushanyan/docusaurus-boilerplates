@@ -3,6 +3,9 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HeroBanner from '@site/src/components/HeroBanner';
+import _once from 'lodash/once'
+
+const logOnce = _once(console.table);
 
 export default function Home() {
   const {
@@ -15,7 +18,7 @@ export default function Home() {
   } = useDocusaurusContext()
 
   useEffect(() => {
-    console.table(additonalInfo)
+    logOnce(additonalInfo)
   }, [])
 
   return (

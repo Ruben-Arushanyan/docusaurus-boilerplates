@@ -124,6 +124,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/docusaurus-soc.png', // https://docusaurus.io/docs/api/themes/configuration#meta-image
       metadata: [
         {
           name: 'keywords',
