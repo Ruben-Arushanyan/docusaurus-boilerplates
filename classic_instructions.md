@@ -239,14 +239,14 @@ Add PWA
     Open the comment for PWA
     ```js
     {
-    plugins: [
-        //    [
-        //        'pwa',
-        //        {
-        //            ...
-        //        }
-        //    ]
-    ]
+        plugins: [
+            //    [
+            //        'pwa',
+            //        {
+            //            ...
+            //        }
+            //    ]
+        ]
     }
     ```
 - Rename `static/__manifest.json__` to `manifest.json`
