@@ -140,6 +140,15 @@ Skip if the blog feature is disabled
 }
 ```
 
+## Step
+
+Revise: `docusaurus.config.js`
+
+```js
+    themeConfig: {
+        image: 'img/docusaurus-soc.png'
+    }
+```
 
 ## Step *
 
