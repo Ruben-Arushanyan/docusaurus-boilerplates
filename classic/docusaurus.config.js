@@ -173,11 +173,23 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Channels',
             items: [
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/RubenArushanyan',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/ruben-arushanyan-42bba9235/',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/rubenarushanyan24',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/rubenarushanyan24/',
               },
             ],
           },
@@ -191,6 +203,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/Ruben-Arushanyan/lox-lava',
+              },
+              {
+                label: 'npm',
+                href: 'https://www.npmjs.com/package/lox-lava',
               },
             ],
           },
