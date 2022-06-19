@@ -1,11 +1,11 @@
 # Setup Instructions
 
-## Step *
+## Step
 
 Copy the `classic` folder from the root repository.
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -16,7 +16,7 @@ const config = {
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -27,7 +27,7 @@ const config = {
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -38,12 +38,12 @@ const config = {
 ```
 
 
-## Step *
+## Step
 
 Revise: `static/img/favicon.ico`.
 
 
-## Step *
+## Step
 
 if you want to custom domain for github pages
 
@@ -62,7 +62,7 @@ const config = {
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -73,7 +73,7 @@ const config = {
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -86,7 +86,7 @@ const config = {
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -99,7 +99,7 @@ Revise: `docusaurus.config.js`
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -112,7 +112,7 @@ Open this field if you want to disable the blog feature.
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -126,7 +126,7 @@ Skip if the blog feature is disabled
 }
 ```
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -150,7 +150,7 @@ Revise: `docusaurus.config.js`
     }
 ```
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -163,7 +163,7 @@ Revise: `docusaurus.config.js`
     ]
 ```
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -176,12 +176,12 @@ Revise: `docusaurus.config.js`
 ```
 
 
-## Step *
+## Step
 
 Revise: `static/img/logo.svg`
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -197,7 +197,7 @@ Revise: `docusaurus.config.js`
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -212,7 +212,7 @@ Revise: `docusaurus.config.js`
 ```
 
 
-## Step *
+## Step
 
 Revise: `docusaurus.config.js`
 
@@ -263,7 +263,7 @@ Add PWA
 - Move generated icons to `static/img/icons`
 
 
-## Step *
+## Step
 
 Revise: `package.json`
 
@@ -297,7 +297,7 @@ Revise: `package.json`
 
 Revise: `src/components/HeroBanner/index.js`
 
-## Step *
+## Step
 
 Revise: `src/components/HomepageFeatures/index.js`
 
@@ -307,13 +307,13 @@ const FeatureList = [
 ];
 ```
 
-## Step *
+## Step
 
 Revise: `static/img/easy_to_use.svg`
 
 Delete if not in use․
 
-## Step *
+## Step
 
 Revise: `docs/`
 
@@ -325,7 +325,7 @@ Revise: `blog/authors.yml`
 
 Skip if the blog feature is disabled.
 
-## Step *
+## Step
 
 Revise: `blog/`
 
