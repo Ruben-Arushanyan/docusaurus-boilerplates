@@ -2,6 +2,7 @@
 
 [1]: /classic_instructions.md
 [2]: /only_docs_instructions.md
+[3]: /minimal_instructions.md
 
 ## Classic
 
@@ -10,5 +11,11 @@
 ## Only Docs
 
 > go to [only_docs_instructions.md][2]
+
+
+## Minimal
+
+> go to [minimal_instructions.md][3]
+
 
 

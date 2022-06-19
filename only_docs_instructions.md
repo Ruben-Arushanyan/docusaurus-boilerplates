@@ -1,3 +1,5 @@
+[1]: /classic_instructions.md
+
 # Setup Instructions
 
 ## Step
@@ -49,3 +51,7 @@ import AdditonalInfoLog from '@site/src/components/AdditonalInfoLog';
 
 ```
 
+
+## Step
+
+Go to: [classic_instructions.md][1]
