@@ -1,14 +1,14 @@
 # Docusaurus Boilerplates
 
 [1]: /classic_instructions.md
-[2]: /minimal_instructions.md
+[2]: /only_docs_instructions.md
 
 ## Classic
 
 > go to [classic_instructions.md][1]
 
-## Minimal
+## Only Docs
 
-> go to [minimal_instructions.md][2]
+> go to [only_docs_instructions.md][2]
 
 
