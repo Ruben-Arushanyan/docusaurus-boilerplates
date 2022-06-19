@@ -154,8 +154,9 @@ const config = {
           // right
           {
             href: 'https://github.com/Ruben-Arushanyan/lox-lava',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
