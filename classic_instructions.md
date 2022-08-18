@@ -36,7 +36,9 @@ const config = {
     url: 'https://lox-lava.com'
 }
 ```
+Examples:
 
+- `https://<username>.github.io/<repository>`
 
 ## Step
 
