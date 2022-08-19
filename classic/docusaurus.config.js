@@ -17,7 +17,7 @@ const additonalInfo = {
 const config = {
   title: 'Lox Lava',
   tagline: 'Psakecin Maroin Tvin Choban Karoin',
-  url: 'https://lox-lava.com',
+  url: 'https://ruben-arushanyan.github.io/lox-lava',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -134,7 +134,7 @@ const config = {
       navbar: {
         title: 'Lox Lava',
         logo: {
-          alt: 'Lox Lava Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [

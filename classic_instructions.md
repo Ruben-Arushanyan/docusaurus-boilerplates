@@ -33,24 +33,9 @@ Revise: `docusaurus.config.js`
 
 ```js
 const config = {
-    url: 'https://lox-lava.com'
+    url: 'https://ruben-arushanyan.github.io/lox-lava'
 }
 ```
-Examples:
-
-- `https://<username>.github.io/<repository>`
-
-## Step
-
-Revise: `static/img/favicon.ico`.
-
-
-## Step
-
-if you want to custom domain for github pages
-
-- Rename `static/__CNAME__` to `static/CNAME`
-- Revise: `static/CNAME`
 
 
 ## Step
@@ -147,16 +132,6 @@ Skip if the blog feature is disabled
 Revise: `docusaurus.config.js`
 
 ```js
-    themeConfig: {
-        image: 'img/docusaurus-soc.png'
-    }
-```
-
-## Step
-
-Revise: `docusaurus.config.js`
-
-```js
     metadata: [
         {
             name: 'keywords',
@@ -176,28 +151,6 @@ Revise: `docusaurus.config.js`
     }
 }
 ```
-
-
-## Step
-
-Revise: `static/img/logo.svg`
-
-
-## Step
-
-Revise: `docusaurus.config.js`
-
-```js
-{
-    navbar: {
-        logo: {
-            alt: 'Lox Lava Logo',
-            src: 'img/logo.svg',
-        }
-    }
-}
-```
-
 
 ## Step
 
@@ -342,5 +295,59 @@ npm run build
 npm run serve
 ```
 
+
+# Creating a logo
+
+## Step
+
+Revise: `static/img/favicon.ico`.
+
+## Step
+
+Revise: `docusaurus.config.js`
+
+```js
+    themeConfig: {
+        image: 'img/docusaurus-soc.png'
+    }
+```
+
+## Step
+
+Revise: `static/img/logo.svg`
+
+
+
+
+
+
+
+
+
+
+
+# Custom Domain
+
+## Step
+
+## Step
+
+Revise: `docusaurus.config.js`
+
+```js
+const config = {
+    url: 'https://lox-lava.com'
+}
+```
+Examples:
+
+- `https://ruben-arushanyan.github.io/lox-lava`
+
+## Step
+
+if you want to custom domain for github pages
+
+- Rename `static/__CNAME__` to `static/CNAME`
+- Revise: `static/CNAME`
 
 
