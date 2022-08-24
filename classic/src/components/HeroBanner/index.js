@@ -19,7 +19,7 @@ export default function HeroBanner() {
           <img
             alt='logo'
             className={styles.heroLogo}
-            src={useBaseUrl('/img/logo.svg')}
+            src={useBaseUrl('/img/300x300.png')}
             width="300"
             height="300"
           />

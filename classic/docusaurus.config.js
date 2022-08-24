@@ -46,7 +46,7 @@ const config = {
     //       {
     //         tagName: 'link',
     //         rel: 'icon',
-    //         href: 'img/logo.svg',
+    //         href: 'img/300x300.png',
     //       },
     //       {
     //         tagName: 'link',
@@ -71,18 +71,18 @@ const config = {
     //       {
     //         tagName: 'link',
     //         rel: 'apple-touch-icon',
-    //         href: 'img/logo.svg',
+    //         href: 'img/300x300.png',
     //       },
     //       {
     //         tagName: 'link',
     //         rel: 'mask-icon',
-    //         href: 'img/logo.svg',
+    //         href: 'img/300x300.png',
     //         color: 'rgb(62, 204, 94)',
     //       },
     //       {
     //         tagName: 'meta',
     //         name: 'msapplication-TileImage',
-    //         content: 'img/logo.svg',
+    //         content: 'img/300x300.png',
     //       },
     //       {
     //         tagName: 'meta',
@@ -135,7 +135,7 @@ const config = {
         title: 'Lox Lava',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/300x300.png',
         },
         items: [
           // left

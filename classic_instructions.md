@@ -298,7 +298,9 @@ Revise: `static/img/1200x630.png`.
 
 ## Step
 
-Revise: `static/img/logo.svg`
+Create **300x300** image <https://www.iloveimg.com/resize-image>
+
+Revise: `static/img/300x300.png`
 
 ## Step
 
