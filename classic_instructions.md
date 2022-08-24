@@ -196,30 +196,6 @@ Revise: `docusaurus.config.js`
 
 ## Step
 
-Add PWA
-
-- Revise: `docusaurus.config.js`
-
-    Open the comment for PWA
-    ```js
-    {
-        plugins: [
-            //    [
-            //        'pwa',
-            //        {
-            //            ...
-            //        }
-            //    ]
-        ]
-    }
-    ```
-- Rename `static/__manifest.json__` to `manifest.json`
-- Generate manifest json <https://www.simicart.com/manifest-generator.html>
-- Move generated icons to `static/img/icons`
-
-
-## Step
-
 Revise: `package.json`
 
 ```json
@@ -300,6 +276,16 @@ npm run serve
 
 ## Step
 
+Create Logo
+
+- <https://www.fotor.com>
+- <https://www.iloveimg.com>
+- <https://www.remove.bg>
+
+## Step
+
+Create `favicon.ico` - <https://iconifier.net>
+
 Revise: `static/img/favicon.ico`.
 
 ## Step
@@ -315,6 +301,29 @@ Revise: `docusaurus.config.js`
 ## Step
 
 Revise: `static/img/logo.svg`
+
+## Step
+
+Add PWA
+
+- Revise: `docusaurus.config.js`
+
+    Open the comment for PWA
+    ```js
+    {
+        plugins: [
+            //    [
+            //        'pwa',
+            //        {
+            //            ...
+            //        }
+            //    ]
+        ]
+    }
+    ```
+- Rename `static/__manifest.json__` to `manifest.json`
+- Generate manifest json <https://www.simicart.com/manifest-generator.html>
+- Move generated icons to `static/img/icons`
 
 
 
