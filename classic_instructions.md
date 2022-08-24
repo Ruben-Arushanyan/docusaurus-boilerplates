@@ -290,13 +290,9 @@ Revise: `static/img/favicon.ico`.
 
 ## Step
 
-Revise: `docusaurus.config.js`
+Create `og:image` **1200x630** image <https://promo.com/tools/image-resizer/>
 
-```js
-    themeConfig: {
-        image: 'img/docusaurus-soc.png'
-    }
-```
+Revise: `static/img/image-soc.jpeg`.
 
 ## Step
 
