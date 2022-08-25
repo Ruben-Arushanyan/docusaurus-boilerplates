@@ -293,7 +293,7 @@ npm run serve
 
 ## Step
 
-Create Logo (1200x1200)
+Create Logo Images (1200x1200) and (1200x630)
 
 - <https://www.fotor.com>
 - <https://www.remove.bg>
@@ -301,17 +301,13 @@ Create Logo (1200x1200)
 
 Revise: `static/images/1200x1200.png`.
 
+Revise: `static/images/1200x630.png`.
+
 ## Step
 
 Create `favicon.ico` - <https://iconifier.net>
 
 Revise: `static/images/favicon.ico`.
-
-## Step
-
-Create `og:image` **1200x630** image <https://www.iloveimg.com/crop-image>
-
-Revise: `static/images/1200x630.png`.
 
 ## Step
 
