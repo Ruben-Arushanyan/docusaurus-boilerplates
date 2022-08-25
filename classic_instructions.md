@@ -297,7 +297,7 @@ Create Logo (1200x1200)
 
 - <https://www.fotor.com>
 - <https://www.remove.bg>
-- <https://www.iloveimg.com/resize-image>
+- <https://www.iloveimg.com>
 
 Revise: `static/images/1200x1200.png`.
 
