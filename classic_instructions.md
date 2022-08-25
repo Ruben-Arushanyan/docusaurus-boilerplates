@@ -322,9 +322,26 @@ const config = {
     url: 'https://lox-lava.com'
 }
 ```
-Examples:
 
-- `https://ruben-arushanyan.github.io/lox-lava`
+## Step
+
+Revise: `docusaurus.config.js`
+
+```js
+const config = {
+    baseUrl: '/lox-lava/',
+}
+```
+
+## Step
+
+Revise: `static/manifest.json`
+
+```json
+{
+    "start_url": "./index.html",
+}
+```
 
 ## Step
 
