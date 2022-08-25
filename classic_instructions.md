@@ -33,7 +33,17 @@ Revise: `docusaurus.config.js`
 
 ```js
 const config = {
-    url: 'https://ruben-arushanyan.github.io/lox-lava'
+    url: 'https://ruben-arushanyan.github.io',
+}
+```
+
+## Step
+
+Revise: `docusaurus.config.js`
+
+```js
+const config = {
+    baseUrl: '/lox-lava/',
 }
 ```
 
