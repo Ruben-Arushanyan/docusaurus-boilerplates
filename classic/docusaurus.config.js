@@ -21,7 +21,7 @@ const config = {
   baseUrl: '/lox-lava/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'images/favicon.ico',
   organizationName: 'Ruben-Arushanyan', // Usually your GitHub org/user name.
   projectName: 'lox-lava', // Usually your repo name.
 
@@ -31,67 +31,67 @@ const config = {
   },
 
   plugins: [
-    // [
-    //   'pwa',
-    //   {
-    //     debug: false,
-    //     offlineModeActivationStrategies: [
-    //       'appInstalled',
-    //       'standalone',
-    //       'queryString',
-    //     ],
-    //     // swRegister: false,
-    //     swCustom: require.resolve('./src/sw.js'),
-    //     pwaHead: [
-    //       {
-    //         tagName: 'link',
-    //         rel: 'icon',
-    //         href: 'img/300x300.png',
-    //       },
-    //       {
-    //         tagName: 'link',
-    //         rel: 'manifest',
-    //         href: 'manifest.json',
-    //       },
-    //       {
-    //         tagName: 'meta',
-    //         name: 'theme-color',
-    //         content: 'rgb(37, 194, 160)',
-    //       },
-    //       {
-    //         tagName: 'meta',
-    //         name: 'apple-mobile-web-app-capable',
-    //         content: 'yes',
-    //       },
-    //       {
-    //         tagName: 'meta',
-    //         name: 'apple-mobile-web-app-status-bar-style',
-    //         content: '#000',
-    //       },
-    //       {
-    //         tagName: 'link',
-    //         rel: 'apple-touch-icon',
-    //         href: 'img/300x300.png',
-    //       },
-    //       {
-    //         tagName: 'link',
-    //         rel: 'mask-icon',
-    //         href: 'img/300x300.png',
-    //         color: 'rgb(62, 204, 94)',
-    //       },
-    //       {
-    //         tagName: 'meta',
-    //         name: 'msapplication-TileImage',
-    //         content: 'img/300x300.png',
-    //       },
-    //       {
-    //         tagName: 'meta',
-    //         name: 'msapplication-TileColor',
-    //         content: '#000',
-    //       },
-    //     ],
-    //   },
-    // ],
+    [
+      'pwa',
+      {
+        debug: false,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        // swRegister: false,
+        swCustom: require.resolve('./src/sw.js'),
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'images/300x300.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: 'manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'images/300x300.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'images/300x300.png',
+            color: 'rgb(62, 204, 94)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: 'images/300x300.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
   ],
 
   presets: [
@@ -124,7 +124,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/1200x630.png', // https://docusaurus.io/docs/api/themes/configuration#meta-image
+      image: 'images/1200x630.png', // https://docusaurus.io/docs/api/themes/configuration#meta-image
       metadata: [
         {
           name: 'keywords',
@@ -135,7 +135,7 @@ const config = {
         title: 'Lox Lava',
         logo: {
           alt: 'Logo',
-          src: 'img/300x300.png',
+          src: 'images/300x300.png',
         },
         items: [
           // left

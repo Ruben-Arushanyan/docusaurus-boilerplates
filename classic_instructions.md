@@ -240,7 +240,7 @@ const FeatureList = [
 
 ## Step
 
-Revise: `static/img/easy_to_use.svg`
+Revise: `static/images/easy_to_use.svg`
 
 Delete if not in use․
 
@@ -282,58 +282,33 @@ Create Logo (1200x1200)
 - <https://www.remove.bg>
 - <https://www.iloveimg.com/resize-image>
 
-Revise: `static/img/1200x1200.png`.
+Revise: `static/images/1200x1200.png`.
 
 ## Step
 
 Create `favicon.ico` - <https://iconifier.net>
 
-Revise: `static/img/favicon.ico`.
+Revise: `static/images/favicon.ico`.
 
 ## Step
 
 Create `og:image` **1200x630** image <https://www.iloveimg.com/crop-image>
 
-Revise: `static/img/1200x630.png`.
+Revise: `static/images/1200x630.png`.
 
 ## Step
 
 Create **300x300** image <https://www.iloveimg.com/resize-image>
 
-Revise: `static/img/300x300.png`
+Revise: `static/images/300x300.png`
 
 ## Step
 
 Add PWA
 
-- Revise: `docusaurus.config.js`
-
-    Open the comment for PWA
-    ```js
-    {
-        plugins: [
-            //    [
-            //        'pwa',
-            //        {
-            //            ...
-            //        }
-            //    ]
-        ]
-    }
-    ```
-- Rename `static/__manifest.json__` to `manifest.json`
-- Generate manifest json <https://www.simicart.com/manifest-generator.html>
-- Move generated icons to `static/img/icons`
-
-
-
-
-
-
-
-
-
-
+- Generate manifest <https://manifest-gen.netlify.app>
+- Move generated icons to `static/images/icons`
+- Revise: `manifest.json` icons array
 
 # Custom Domain
 

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/easy_to_use.svg').default,
+    Svg: require('@site/static/images/easy_to_use.svg').default,
     description: (
       <>
         Lox lava inelu...
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/easy_to_use.svg').default,
+    Svg: require('@site/static/images/easy_to_use.svg').default,
     description: (
       <>
         Lox lava inelu...
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/easy_to_use.svg').default,
+    Svg: require('@site/static/images/easy_to_use.svg').default,
     description: (
       <>
         Lox lava inelu...
