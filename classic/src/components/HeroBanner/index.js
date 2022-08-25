@@ -28,10 +28,10 @@ export default function HeroBanner() {
             Psakecin <b>Maroyin</b>, tvin choban <b>Karoyin</b>
         </h2>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/intro">
+          <Link className="button button--primary" to="/docs/introduction">
             Get Started
           </Link>
-          <Link className="button button--info" to="/docs/intro">
+          <Link className="button button--info" to="/docs/introduction">
             Try a Demo
           </Link>
           <span className={styles.indexCtasGitHubButtonWrapper}>

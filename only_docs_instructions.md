@@ -24,11 +24,11 @@ Remove: `pages/index.js`
 
 ## Step
 
-Rename: `docs/intro.md` to `docs/intro.mdx`
+Rename: `docs/introduction.md` to `docs/introduction.mdx`
 
 ## Step
 
-`docs/intro.mdx`
+`docs/introduction.mdx`
 
 Add: 
 
@@ -40,7 +40,7 @@ slug: /
 
 ## Step
 
-`docs/intro.mdx`
+`docs/introduction.mdx`
 
 Add:
 
