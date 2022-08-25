@@ -246,6 +246,13 @@ Delete if not in use․
 
 ## Step
 
+Revise: `static/manifest.json`
+
+- `"name": "Lox Lava"`
+- `"short_name": "Lox Lava"`
+
+## Step
+
 Revise: `docs/`
 
 Remove examples and make real docs.
@@ -309,6 +316,8 @@ Add PWA
 - Generate manifest <https://manifest-gen.netlify.app>
 - Move generated icons to `static/images/icons`
 - Revise: `manifest.json` icons array
+
+
 
 # Custom Domain
 
