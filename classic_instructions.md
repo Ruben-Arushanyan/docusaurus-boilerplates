@@ -240,22 +240,6 @@ Revise: `src/components/HeroBanner/index.js`
 
 ## Step
 
-Revise: `src/components/HomepageFeatures/index.js`
-
-```js
-const FeatureList = [
-    ...
-];
-```
-
-## Step
-
-Revise: `static/images/easy_to_use.svg`
-
-Delete if not in use․
-
-## Step
-
 Revise: `static/manifest.json`
 
 - `"name": "Lox Lava"`
@@ -289,7 +273,7 @@ npm run serve
 ```
 
 
-# Creating a logo
+# Creating a custom logo (optional)
 
 ## Step
 
@@ -325,7 +309,7 @@ Add PWA
 
 
 
-# Custom Domain
+# Custom Domain (optional)
 
 ## Step
 
@@ -350,3 +334,14 @@ if you want to custom domain for github pages
 - Revise: `static/CNAME`
 
 
+# Homepage Features (optional)
+
+## Step
+
+Revise: `src/components/HomepageFeatures/index.js`
+
+```js
+const FeatureList = [
+    ...
+];
+```
