@@ -135,7 +135,7 @@ const config = {
         title: 'Lox Lava',
         logo: {
           alt: 'Logo',
-          src: 'images/300x300.png',
+          src: 'images/icons/icon-72x72.png',
         },
         items: [
           // left
