@@ -1,21 +1,19 @@
 # Docusaurus Boilerplates
 
-[1]: /classic_instructions.md
-[2]: /only_docs_instructions.md
-[3]: /minimal_instructions.md
+**Docusaurus boilerplates, and instruction guidelines**
 
-## Classic
+## Guidelines
 
-> go to [classic_instructions.md][1]
+- [Classic](/classic_instructions.md)
+- [Only Docs](/only_docs_instructions.md)
+- [Minimal](/minimal_instructions.md)
 
-## Only Docs
+## Authors
 
-> go to [only_docs_instructions.md][2]
+- [Ruben Arushanyan](https://github.com/ruben-arushanyan)
 
+## License
 
-## Minimal
-
-> go to [minimal_instructions.md][3]
-
+[MIT License](https://github.com/Ruben-Arushanyan/docusaurus-boilerplates/blob/master/LICENSE)
 
 
