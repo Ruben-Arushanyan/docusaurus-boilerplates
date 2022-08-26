@@ -1,19 +1,31 @@
 {
-  "name": "docusaurus-boilerplate",
+  "name": "docusaurus-boilerplates",
   "version": "4.0.0",
-  "description": "docusaurus boilerplates, and instructions",
+  "description": "Docusaurus boilerplates, and instruction guidelines",
   "license": "MIT",
+  "homepage": "https://github.com/Ruben-Arushanyan/docusaurus-boilerplates",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ruben-Arushanyan/docusaurus-boilerplate.git"
+    "url": "https://github.com/Ruben-Arushanyan/docusaurus-boilerplates"
   },
   "bugs": {
-    "url": "https://github.com/Ruben-Arushanyan/docusaurus-boilerplate/issues"
+    "url": "https://github.com/Ruben-Arushanyan/docusaurus-boilerplates/issues",
+    "email" : "ruben.arushanyan24@gmail.com"
   },
   "keywords": [
     "docusaurus",
     "boilerplate",
-    "docs"
+    "docs",
+    "guide"
   ],
-  "author": "Ruben Arushanyan <ruben.arushanyan24@gmail.com> (https://www.linkedin.com/in/ruben-arushanyan-42bba9235/)"
+  "author": {
+    "name" : "Ruben Arushanyan",
+    "email" : "ruben.arushanyan24@gmail.com",
+    "url" : "https://www.linkedin.com/in/ruben-arushanyan-42bba9235/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/Ruben-Arushanyan"
+  },
+  "scripts": {}
 }
