@@ -5,10 +5,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Examples-Of-Usage/docusaurus-boilerplate.git"
+    "url": "git+https://github.com/Ruben-Arushanyan/docusaurus-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/Examples-Of-Usage/docusaurus-boilerplate/issues"
+    "url": "https://github.com/Ruben-Arushanyan/docusaurus-boilerplate/issues"
   },
   "keywords": [
     "docusaurus",
