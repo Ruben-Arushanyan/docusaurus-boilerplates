@@ -354,6 +354,10 @@ Revise: Reopo root `README.md` docs links
 
 ## Step
 
+Revise: Github repository details website link
+
+## Step
+
 New Release
 
 
