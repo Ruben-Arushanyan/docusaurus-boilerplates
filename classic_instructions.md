@@ -340,14 +340,30 @@ const config = {
 }
 ```
 
+## Step
+
+Revise: Reopo root `package.json`
+
+```json
+  "homepage": "https://ruben-arushanyan.github.io/lox-lava",
+```
 
 ## Step
 
-go to: <https://github.com/js-org/js.org#step-4>
+Revise: Reopo root `README.md` docs links
 
 ## Step
 
-Remove `js.org` forked repo
+New Release
+
+
+## Step
+
+Open Pull Request: <https://github.com/js-org/js.org#step-4>
+
+## Step
+
+Remove `js.org` forked repo after Pull Request merged
 
 
 # Homepage Features (optional)
