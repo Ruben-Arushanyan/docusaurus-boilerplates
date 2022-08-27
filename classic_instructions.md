@@ -311,9 +311,14 @@ Add PWA
 
 In repository Settings page Edit Social preview
 
+
 # Custom Domain (optional)
 
 ## Step
+
+- Rename `static/__CNAME__` to `static/CNAME`
+- Revise: `static/CNAME`
+
 
 ## Step
 
@@ -331,26 +336,18 @@ Revise: `docusaurus.config.js`
 
 ```js
 const config = {
-    baseUrl: '/lox-lava/',
+    baseUrl: '/',
 }
 ```
 
-## Step
-
-Revise: `static/manifest.json`
-
-```json
-{
-    "start_url": "./index.html",
-}
-```
 
 ## Step
 
-if you want to custom domain for github pages
+go to: <https://github.com/js-org/js.org#step-4>
 
-- Rename `static/__CNAME__` to `static/CNAME`
-- Revise: `static/CNAME`
+## Step
+
+Remove `js.org` forked repo
 
 
 # Homepage Features (optional)
