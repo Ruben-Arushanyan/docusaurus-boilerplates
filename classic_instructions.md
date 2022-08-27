@@ -307,7 +307,9 @@ Add PWA
 - Move generated icons to `static/images/icons`
 - Revise: `manifest.json` icons array
 
+## Step
 
+In repository Settings page Edit Social preview
 
 # Custom Domain (optional)
 
