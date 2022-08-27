@@ -311,9 +311,14 @@ Add PWA
 
 In repository Settings page Edit Social preview
 
+
 # Custom Domain (optional)
 
 ## Step
+
+- Rename `static/__CNAME__` to `static/CNAME`
+- Revise: `static/CNAME`
+
 
 ## Step
 
@@ -331,26 +336,34 @@ Revise: `docusaurus.config.js`
 
 ```js
 const config = {
-    baseUrl: '/lox-lava/',
+    baseUrl: '/',
 }
 ```
 
 ## Step
 
-Revise: `static/manifest.json`
+Revise: Reopo root `package.json`
 
 ```json
-{
-    "start_url": "./index.html",
-}
+  "homepage": "https://ruben-arushanyan.github.io/lox-lava",
 ```
 
 ## Step
 
-if you want to custom domain for github pages
+Revise: Reopo root `README.md` docs links
 
-- Rename `static/__CNAME__` to `static/CNAME`
-- Revise: `static/CNAME`
+## Step
+
+New Release
+
+
+## Step
+
+Open Pull Request: <https://github.com/js-org/js.org#step-4>
+
+## Step
+
+Remove `js.org` forked repo after Pull Request merged
 
 
 # Homepage Features (optional)
