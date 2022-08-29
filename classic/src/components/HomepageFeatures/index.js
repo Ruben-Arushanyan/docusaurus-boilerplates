@@ -13,6 +13,11 @@ const FeatureList = [
     Svg: require('@site/static/images/features/simple.svg').default,
     description: <></>,
   },
+  {
+    title: 'Powerful',
+    Svg: require('@site/static/images/features/powerful.svg').default,
+    description: <></>,
+  },
 ];
 
 function Feature({Svg, title, description}) {
