@@ -8,6 +8,11 @@ const FeatureList = [
     Svg: require('@site/static/images/features/flexible.svg').default,
     description: <></>,
   },
+  {
+    title: 'Simple',
+    Svg: require('@site/static/images/features/simple.svg').default,
+    description: <></>,
+  },
 ];
 
 function Feature({Svg, title, description}) {
