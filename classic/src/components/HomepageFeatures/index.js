@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/images/features/feature-1.svg').default,
+    title: 'Flexible',
+    Svg: require('@site/static/images/features/flexible.svg').default,
     description: (
       <>
-        Lox lava inelu...
+         d f df d f d f d f df d f dd fdfdf fdf dfd f d fd f d f d f df d f d f d f df d f d f d f df d f 
       </>
     ),
   }
