@@ -372,6 +372,12 @@ Remove `js.org` forked repo after Pull Request merged
 
 # Homepage Features (optional)
 
+
+## Step
+
+`src/pages.index.js`
+
+Open comment `{/* <HomepageFeatures /> */}`
 ## Step
 
 Revise: `src/components/HomepageFeatures/index.js`
