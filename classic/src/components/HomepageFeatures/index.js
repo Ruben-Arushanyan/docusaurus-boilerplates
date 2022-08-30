@@ -44,13 +44,18 @@ const FeatureList = [
     description: <></>,
   },
   {
-    title: 'Speed',
-    Svg: require('@site/static/images/features/speed.svg').default,
+    title: 'Fast',
+    Svg: require('@site/static/images/features/fast.svg').default,
     description: <></>,
   },
   {
     title: 'Predictable',
     Svg: require('@site/static/images/features/predictable.svg').default,
+    description: <></>,
+  },
+  {
+    title: 'Intuitive',
+    Svg: require('@site/static/images/features/intuitive.svg').default,
     description: <></>,
   },
 ];
