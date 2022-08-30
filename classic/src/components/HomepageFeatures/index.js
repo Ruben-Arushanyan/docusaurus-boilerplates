@@ -34,8 +34,13 @@ const FeatureList = [
     description: <></>,
   },
   {
-    title: 'Debuggable',
+    title: 'Encapsulated',
     Svg: require('@site/static/images/features/encapsulated.svg').default,
+    description: <></>,
+  },
+  {
+    title: 'Optimized',
+    Svg: require('@site/static/images/features/optimized.svg').default,
     description: <></>,
   },
 ];
