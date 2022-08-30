@@ -33,6 +33,11 @@ const FeatureList = [
     Svg: require('@site/static/images/features/debuggable.svg').default,
     description: <></>,
   },
+  {
+    title: 'Debuggable',
+    Svg: require('@site/static/images/features/encapsulated.svg').default,
+    description: <></>,
+  },
 ];
 
 function Feature({Svg, title, description}) {
