@@ -303,7 +303,7 @@ Revise: `static/images/300x300.png`
 
 Add PWA
 
-- Generate manifest <https://manifest-gen.netlify.app>
+- Generate manifest <https://tools.crawlink.com/tools/pwa-icon-generator>
 - Move generated icons to `static/images/icons`
 - Revise: `manifest.json` icons array
 
