@@ -18,6 +18,16 @@ const FeatureList = [
     Svg: require('@site/static/images/features/powerful.svg').default,
     description: <></>,
   },
+  {
+    title: 'Effective',
+    Svg: require('@site/static/images/features/effective.svg').default,
+    description: <></>,
+  },
+  {
+    title: 'Secure',
+    Svg: require('@site/static/images/features/secure.svg').default,
+    description: <></>,
+  },
 ];
 
 function Feature({Svg, title, description}) {
@@ -38,7 +48,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
