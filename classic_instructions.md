@@ -273,31 +273,29 @@ npm run serve
 ```
 
 
-# Creating a custom logo (optional)
+# Creating a logo (optional)
 
 ## Step
 
-Create Logo Images (1200x1200) and (1200x630)
-
-- <https://www.fotor.com>
-- <https://www.remove.bg>
-- <https://www.iloveimg.com>
-
-Revise: `static/images/1200x1200.png`.
-
-Revise: `static/images/1200x630.png`.
+Create a logo.  
+Helpful platforms and tools
+- https://www.pinterest.com/
+- https://www.photopea.com/ (Image->Vectorize Bitmap)
+- https://www.remove.bg
 
 ## Step
 
-Create `favicon.ico` - <https://iconifier.net>
+Create logo images (https://www.pinterest.com)
+- `static/images/1200x1200.png`
+- `static/images/1200x630.png`
+- `static/images/300x300.png`
 
-Revise: `static/images/favicon.ico`.
+
 
 ## Step
 
-Create **300x300** image <https://www.iloveimg.com/resize-image>
+Create `static/images/favicon.ico` (<https://iconifier.net>)
 
-Revise: `static/images/300x300.png`
 
 ## Step
 
