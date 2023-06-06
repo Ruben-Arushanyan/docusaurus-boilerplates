@@ -285,7 +285,7 @@ Helpful platforms and tools
 
 ## Step
 
-Create logo images (https://www.pinterest.com)
+Create logo images (https://www.photopea.com)
 - `static/images/1200x1200.png`
 - `static/images/1200x630.png`
 - `static/images/300x300.png`
